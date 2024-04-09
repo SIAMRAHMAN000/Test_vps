@@ -13,5 +13,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Copy the content of the local src directory to the working directory
 COPY . .
 
+EXPOSE 80 8888 8080 443 5130 5131 5132 5133 5134 5135 3306
+
 # Command to run on container start
 CMD ["python3", "main.py"]
