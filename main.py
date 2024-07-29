@@ -4,8 +4,8 @@ from zipfile import ZipFile
 import os
 
 # Replace these with your actual credentials or pass them as environment variables
-NGROK_AUTH_TOKEN = os.getenv('NGROK_AUTH_TOKEN', 'your_ngrok_auth_token_here')
-ROOT_PASSWORD = os.getenv('ROOT_PASSWORD', 'your_desired_root_password_here')
+NGROK_AUTH_TOKEN = os.getenv('NGROK_AUTH_TOKEN', '2jvnJltrUcoAoyI189VJ3ffbDmL_2qPcDt4jhsQ2TF6Nh9Z4x')
+ROOT_PASSWORD = os.getenv('ROOT_PASSWORD', 'HTTPSIAMXD')
 
 def install_dependencies():
     print("Updating and installing dependencies...")
